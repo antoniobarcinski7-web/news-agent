@@ -2,8 +2,8 @@ name: Agente de Notícias de Economia
 
 "on":
   schedule:
-    # Roda todo dia às 08:00 horário de Brasília (UTC-3 = 11:00 UTC)
-    - cron: "0 11 * * *"
+    # Roda todo dia às 06:00 horário de Brasília (UTC-3 = 09:00 UTC)
+    - cron: "0 9 * * *"
   workflow_dispatch:
     # Permite rodar manualmente pelo GitHub (para testar)
 
